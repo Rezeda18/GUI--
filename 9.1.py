@@ -24,5 +24,5 @@ def z3():
             total_expenses += int(product_cost)
             print(f'{product} - {kol} шт. за {price} руб.')
 
-        print(f'Итоговая сумма:{total_expenses} руб.')''
+        print(f'Итоговая сумма:{total_expenses} руб.')
 z3()
