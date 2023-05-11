@@ -9,7 +9,8 @@ def z12():
         def open_restaurant(self):
             print("Ресторан сейчас открыт")
 
-    newRestaurant = Restaurant("ХочуХарчо", "грузинская")
+
+    newRestaurant = Restaurant(input("Введите название ресторана: "), input("Введите тип кухни: "))
     print(newRestaurant.name, newRestaurant.type)
     newRestaurant.describe_restaurant()
     newRestaurant.open_restaurant()
@@ -22,7 +23,7 @@ def z12():
 
     newRestaurant4 = Restaurant("СупэСтар", "звёздная")
     newRestaurant4.describe_restaurant()
-
+z12()
 def z3():
     class Restaurant:
         def __init__(self, name, type, character):
